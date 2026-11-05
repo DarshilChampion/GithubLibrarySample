@@ -214,6 +214,6 @@ dependencies {
 
     //implementation(libs.androidx.swiperefreshlayout)
 
-    implementation("com.github.DarshilChampion:GithubLibrarySample:1.0.0")
+    implementation("com.github.DarshilChampion:GithubLibrarySample:1.0.1")
 
 }

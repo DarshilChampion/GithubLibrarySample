@@ -42,15 +42,21 @@ class MainActivity : AppCompatActivity() {
 
 
 
+        val championSDK = ChampionSDK
         // Initialize SDK
-        ChampionSDK.initialize(this)
+        championSDK.initialize(this)
 
         // Show custom message
-        ChampionSDK.showMessage(
+        championSDK.showMessage(
             this,
             "Hello from ChampionSDK!"
         )
 
+        championSDK.showBottomSheet(
+            this,
+            title = "Champion SDK",
+            message = "Your SDK is successfully integrated!"
+        )
 
 
 
