@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Imperia: Payment Request</string>
+    <string name="app_settings">app_settings</string>
+
+    <string name="sender_number">WLITXN</string>
+    <!--<string name="sender_number">+919426681031</string>-->
+
+    <string name="user_user_id">user_user_id</string>
+    <string name="user_first_name">user_first_name</string>
+    <string name="user_middle_name">user_middle_name</string>
+    <string name="user_last_name">user_last_name</string>
+    <string name="user_role_id">user_role_id</string>
+    <string name="user_role_name">user_role_name</string>
+    <string name="user_gender">user_gender</string>
+    <string name="user_mobile">user_mobile</string>
+    <string name="user_email">user_email</string>
+    <string name="user_profession_name">user_profession_name</string>
+    <string name="user_dob">user_dob</string>
+    <string name="user_status">user_status</string>
+    <string name="user_created_at">user_created_at</string>
+    <string name="user_profile_picture">user_profile_picture</string>
+    <string name="user_token">user_token</string>
+    <string name="user_fcm_token">user_fcm_token</string>
+    <string name="user_address">user_address</string>
+    <string name="user_city">user_city</string>
+    <string name="user_city_name">user_city_name</string>
+    <string name="user_state">user_state</string>
+    <string name="user_state_name">user_state_name</string>
+    <string name="user_district">user_district</string>
+    <string name="user_district_name">user_district_name</string>
+    <string name="user_country">user_country</string>
+    <string name="user_country_name">user_country_name</string>
+    <string name="user_pincode">user_pincode</string>
+    <string name="user_preferred_lang">user_preferred_lang</string>
+    <string name="user_preferred_lang_name">user_preferred_lang_name</string>
+    <string name="user_organization">user_organization</string>
+    <string name="user_standard">user_standard</string>
+    <string name="user_stream">user_stream</string>
+    <string name="user_math_dropped">user_math_dropped</string>
+    <string name="user_science_dropped">user_science_dropped</string>
+    <string name="user_curriculum">user_curriculum</string>
+    <string name="user_section">user_section</string>
+
+
+    <string name="isDarkMode">isDarkMode</string>
+    <!--<string name="loginTermAndConditions">By logging in or registering, you agree to the <font color="#1536ad">Terms of Service</font> and <font color="#1536ad">Privacy Policy</font> - DAILY BOOK.)</string>-->
+    <string name="alreadyRegisteredLogInRegister">Already registered?  <font color="#1536ad">Log In</font></string>
+    <string name="dontHaveAnAccountSignUpLogin">Don’t have an account?  <font color="#1536ad">Sign Up</font></string>
+    <string name="iAgreeToTermsOfUseRegister">
+        <a href="https://udaanmindhub.com/terms_of_use">Terms of Use</a>.
+    </string>
+
+
+    <!--Commonly Used-->
+    <string name="rupeeSymbol">₹</string>
+    <string name="add">Add</string>
+    <string name="addMore">Add More</string>
+    <string name="resend">Resend</string>
+    <string name="addCapital">ADD</string>
+    <string name="remove">Remove</string>
+    <string name="removeCapital">REMOVE</string>
+    <string name="edit">Edit</string>
+    <string name="editCapital">EDIT</string>
+    <string name="verify">Verify</string>
+    <string name="enterVerificationCode">Enter Verification Code</string>
+    <string name="sendOTPButton">Send OTP</string>
+    <string name="verifyOTPButton">Verify OTP</string>
+    <string name="nextButton">Next</string>
+    <string name="previousButton">Previous</string>
+    <string name="submitButton">Submit</string>
+    <string name="deleteButton">Delete</string>
+    <string name="loginButton">Login</string>
+    <string name="contactUsTitle">Contact Us</string>
+    <string name="aboutUsTitle">About Us</string>
+    <string name="termsAndConditionsTitle">Terms &amp; Conditions</string>
+    <string name="privacyPolicyTitle">Privacy Policy</string>
+    <string name="logoutTitle">Logout</string>
+    <string name="goodChoiceTitle">Good Choice...</string>
+    <string name="goodNightTitle">Good Night</string>
+    <string name="goodMorningTitle">Good Morning</string>
+    <string name="goodAfternoonTitle">Good Afternoon</string>
+    <string name="goodEveningTitle">Good Evening</string>
+
+    <!--                // Titles / Hints //                  -->
+    <string name="areYouSureYouWantToLogoutTitle">Are you sure you want to Logout?</string>
+    <string name="registeredMobileNumber">Registered mobile number</string>
+    <string name="enterLast4DigitsofYourCardTitle">Enter Last 4 Digits of Your Card</string>
+    <string name="atLeastOneCardRequiredTitle">At Least One Card Details Required</string>
+    <string name="atLeastOneBankRequiredTitle">At Least One Bank Details Required</string>
+    <string name="youCanOnlyAddTenCardAtOnceTitle">You Can Only Add Ten Card At Once</string>
+    <string name="removeCardTitle">Remove Card</string>
+    <string name="removeTitle">Remove</string>
+    <string name="areYouSureYouWantToRemoveTitle">Are you sure you want to remove?</string>
+    <string name="yesTitle">Yes</string>
+    <string name="noTitle">No</string>
+
+    <string name="statusTitle">Status</string>
+
+    <string name="enterFullName">Enter Full Name</string>
+    <string name="enterFirstName">Enter First Name</string>
+    <string name="enterMiddleName">Enter Middle Name</string>
+    <string name="enterLastName">Enter Last Name</string>
+    <string name="enterEmailAddress">Enter Email Address</string>
+    <string name="enterBusinessAddress">Enter Business Address</string>
+    <string name="enterMobileNumber">Enter Mobile Number</string>
+    <string name="enterYourMobileNumber">Enter your mobile number</string>
+    <string name="enterYourRegisteredMobileNumber">Enter your registered mobile number</string>
+    <string name="verify_otp_sent_on_below_mobile_number">Verify OTP sent on below mobile number</string>
+    <string name="yourProfileTitle">Your Profile</string>
+
+    <string name="enableBiometricLockTitle">Enable Biometric Lock</string>
+    <string name="isBiometricEnable">isBiometricEnable</string>
+
+    <!--                // Errors //                  -->
+    <string name="errorFieldRequired">Required!</string>
+    <string name="errorNewPasswordAndConfirmPasswordDoesNotMatch">New Password and Confirm Password does not match!</string>
+    <string name="errorTenDigitsMobileNumberValidation">Enter valid 10 digits mobile number!</string>
+    <string name="errorWaitForResponse">Wait For Response!</string>
+    <string name="errorSomethingWentWrong">Something Went Wrong!</string>
+    <string name="errorEnterValid">Enter Valid!</string>
+    <string name="errorEnterMin5Characters">Enter Min. 5 Characters!</string>
+    <string name="errorEnterMin10Characters">Enter Min. 10 Characters!</string>
+    <string name="errorEnterMin20Characters">Enter Min. 20 Characters!</string>
+    <string name="errorEnterMin30Characters">Enter Min. 30 Characters!</string>
+    <string name="errorEnterValidEmailAddress">Enter Valid Email Address</string>
+    <string name="errorEnterValidPANNumber">Enter Valid PAN Number</string>
+    <string name="errorEnterValidIFSCCode">Enter Valid IFSC Code</string>
+    <string name="errorEnterValidLast4DigitsOfAadhaar">Enter Valid Last 4 Digits Of Aadhaar</string>
+    <string name="errorTransactionAmountCannotBeLessThan100">Transaction Amount Cannot Be Less Than 100</string>
+    <string name="errorMarkupAmountCannotBeGreaterThanOrEqualToTransactionAmount">Markup Amount Cannot Be Greater Than Or Equal To Transaction Amount</string>
+    <string name="optionalTitle">(Optional)</string>
+    <string name="noRecordFound">No record found</string>
+
+    <string name="moodTrackerSharePreference">moodTrackerSharePreference</string>
+    <string name="mood1Title">Terrible</string>
+    <string name="mood2Title">Bad</string>
+    <string name="mood3Title">Okay</string>
+    <string name="mood4Title">Good</string>
+    <string name="mood5Title">Great</string>
+
+
+</resources>

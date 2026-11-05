@@ -1,0 +1,80 @@
+<resources>
+
+    <!--remove default splash screen  -->
+    <style name="RemoveDefaultSplashScreen" parent="AppTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <!-- Base application theme. -->
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">-->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Disable ActionBar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- Status Bar Color -->
+        <item name="android:statusBarColor">@color/white</item>
+        <!-- If you want white icons (dark background) -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Navigation Bar Color -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <!-- For dark icons (use only if nav bar is light color) -->
+        <!--        <item name="android:windowLightNavigationBar">false</item>-->
+
+        <!-- DISABLE FORCE DARK -->
+        <item name="android:forceDarkAllowed">false</item>
+
+    </style>
+
+
+
+
+    <style name="Theme.MyApp.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Fullscreen -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- If you want white icons (dark background) -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Duration of animation -->
+        <item name="windowSplashScreenAnimationDuration">500</item>
+    </style>
+
+    <!--<style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowLightStatusBar">false</item> &lt;!&ndash; Disable light status bar &ndash;&gt;
+        <item name="android:windowTranslucentStatus">false</item> &lt;!&ndash; Make sure it's not translucent &ndash;&gt;
+    </style>-->
+
+    <style name="Theme_Dialog_4" parent="@style/Base.ThemeOverlay.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>-->
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation2</item>
+        <!--<item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>-->
+    </style>
+
+    <style name="DialogAnimation2">
+        <item name="android:windowEnterAnimation">@anim/bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/top_to_bottom</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#1536ad</color>
+    <color name="colorPrimaryDark">#1536ad</color>
+    <color name="colorAccent">#1536ad</color>
+    <color name="colorSecondary">#175CC2</color>-->
+    <color name="colorPrimary">#813FD6</color>
+    <color name="colorPrimaryDark">#813FD6</color>
+    <color name="colorAccent">#813FD6</color>
+    <color name="colorSecondary">#1ba342</color>
+    <color name="pleaseWaitToast">#1ba342</color>
+    <!--<color name="pleaseWaitToast">#CBA6FB</color>-->
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <color name="iconColorOuter">#1641B4</color>
+    <color name="iconColorInner">#1641B4</color>
+
+    <color name="gradientColor1">#A76BF2</color>
+    <color name="gradientColor2">#813FD6</color>
+
+    <color name="buttonBackgroundStrokeColor">#1641B4</color>
+    <color name="buttonBackgroundFillColor">#FFFFFF</color>
+    <color name="cardBackgroundLightColor">#eff6ff</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="cardBackgroundStrokeColor">#d0d8ef</color>
+    <color name="viewStrokeColor">#DEDEDE</color>
+    <color name="borderEditTextColor1">#EFEDED</color>
+    <color name="stepActiveColor">#1641B4</color>
+    <color name="stepDeActiveColor">#d6d4d4</color>
+
+    <color name="backgroundColor">#FFFFFF</color>
+    <!--<color name="backgroundColorLight">#f7f4ff</color>-->
+    <color name="backgroundColorLight">#f5f9ff</color>
+    <color name="headingColor">#9ca2af</color>
+    <color name="subHeadingColor">#454545</color>
+    <color name="normalTextColor">#000000</color>
+    <color name="normalLightTextColor">#B1B1B1</color>
+
+    <color name="activeTextColor">#1641B4</color>
+    <color name="deActiveTextColor">#838383</color>
+
+    <color name="changingIconColor">#1641B4</color>
+    <color name="mainIconColor">#1641B4</color>
+    <color name="bottomBarBackground">#ffffff</color>
+    <color name="bottomBarActiveCardColor">#f1ebff</color>
+    <color name="bottomBarDeActiveCardColor">#ffffff</color>
+    <color name="bottomBarActiveIconColor">#1641B4</color>
+    <color name="bottomBarDeActiveIconColor">#8C9BA6</color>
+<!--    <color name="bottomBarDeActiveIconColor">#141B34</color>-->
+    <color name="bottomBarActiveTextColor">#1641B4</color>
+    <color name="bottomBarDeActiveTextColor">#838383</color>
+<!--    <color name="bottomBarDeActiveTextColor">#000000</color>-->
+
+    <color name="toastSuccessBackground">#00a65a</color>
+    <color name="toastWarningBackground">#FFC107</color>
+    <color name="toastFailureBackground">#DB1700</color>
+    <color name="redNoteColor">#E72110</color>
+    <color name="yellowNoteColor">#f8d18a</color>
+
+    <color name="statusSuccess">#04A85E</color>
+    <color name="statusSuccessLight">#CFFFE8</color>
+    <color name="statusFailure">#dd4b39</color>
+    <color name="statusFailureLight">#FFD8D2</color>
+    <color name="statusPending">#f39c12</color>
+    <color name="statusPendingLight">#FBE5C7</color>
+    <color name="statusUnderProcess">#f39c12</color>
+    <color name="statusHOLD">#f39c12</color>
+    <color name="statusProcessing">#f39c12</color>
+    <color name="statusReverse">#0261B0</color>
+    <color name="statusReverseLight">#BEDEFB</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="hintColor1">#8F8F8F</color>
+    <color name="hintColor2">#A8A8A8</color>
+    <color name="hintColor3">#787681</color>
+    <color name="gray">#A8A8A8</color>
+    <color name="darkGray">#949494</color>
+    <color name="darkerGray">#7C7C7C</color>
+    <color name="lightGray">#BFBFBF</color>
+    <color name="lighterGray">#d1d1d1</color>
+    <color name="lightestGray">#ededed</color>
+    <color name="lightestPurple">#EBF7FF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="offwhite">#EEEEEE</color>
+
+
+    <color name="chip_1">#E3F2FD</color> <!-- blue -->
+    <color name="chip_2">#E8F5E9</color> <!-- green -->
+    <color name="chip_3">#F3E5F5</color> <!-- purple -->
+    <color name="chip_4">#FFF8E1</color> <!-- yellow -->
+    <color name="chip_5">#FCE4EC</color> <!-- pink -->
+    <color name="chip_6">#E0F7FA</color> <!-- cyan -->
+    <color name="chip_7">#F1F8E9</color> <!-- lime -->
+    <color name="chip_8">#EDE7F6</color> <!-- deep purple -->
+    <color name="chip_9">#FFF3E0</color> <!-- orange -->
+    <color name="chip_10">#FADEDE</color> <!-- grey -->
+
+    <!-- text colors -->
+    <color name="chip_1_text">#1E88E5</color>
+    <color name="chip_2_text">#43A047</color>
+    <color name="chip_3_text">#8E24AA</color>
+    <color name="chip_4_text">#F9A825</color>
+    <color name="chip_5_text">#D81B60</color>
+    <color name="chip_6_text">#00ACC1</color>
+    <color name="chip_7_text">#7CB342</color>
+    <color name="chip_8_text">#5E35B1</color>
+    <color name="chip_9_text">#FB8C00</color>
+    <color name="chip_10_text">#F66464</color>
+
+    <!-- colors.xml -->
+    <color name="planBasic">#42A5F5</color>
+    <color name="planStandard">#43A047</color>
+    <color name="planPremium">#FFC107</color>
+
+    <color name="mood1Color">#9568E0</color>
+    <color name="mood2Color">#B496E9</color>
+    <color name="mood3Color">#FF9800</color>
+    <color name="mood4Color">#8BC34A</color>
+    <color name="mood5Color">#0E8C13</color>
+    <color name="activeStreakColor">#FF6A00</color>
+    <color name="pendingStreakColor">#A8A8A8</color>
+    <color name="brokenStreakColor">#D97B7B</color>
+
+    <color name="inhaleColor">#4e84fc</color>
+    <color name="hold1Color">#7e47f9</color>
+    <color name="exhaleColor">#04b7a2</color>
+    <color name="hold2Color">#ff9853</color>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <!--<domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">dev.crezo.co.in</domain>
+    </domain-config>-->
+</network-security-config>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>
+    <network-security-config>
+        &lt;!&ndash;Set application-wide security config using base-config tag.&ndash;&gt;
+        <base-config cleartextTrafficPermitted="false">
+            <trust-anchors>
+                <certificates src="system" />
+            </trust-anchors>
+        </base-config>
+        <domain-config cleartextTrafficPermitted="true">
+            <domain includeSubdomains="true">masterpay.pro</domain>
+            <pin-set>
+                <pin digest="SHA-256">R8jzJAu39BVnwtcVI8y266mIRO6DGQsPI0GJDJzm1Co=</pin> //master
+                <pin digest="SHA-256">vNpL3kJZxEyPi1rAPjwM8gUdJkXBaO6aSb4Xtpp14M4=</pin> //masterpaypro
+            </pin-set>
+        </domain-config>
+    </network-security-config>-->
+<!-- To check
+     pin digest="SHA-256
+     of any website from below website
+    https://www.ssllabs.com/-->
+
+

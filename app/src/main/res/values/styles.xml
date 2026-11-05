@@ -1,0 +1,169 @@
+<resources>
+
+    <!--remove default splash screen  -->
+    <style name="RemoveDefaultSplashScreen" parent="AppTheme">
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Disable ActionBar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- Status Bar Color -->
+        <item name="android:statusBarColor">@color/white</item>
+        <!-- If you want white icons (dark background) -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Navigation Bar Color -->
+        <item name="android:navigationBarColor">@color/white</item>
+        <!-- For dark icons (use only if nav bar is light color) -->
+<!--        <item name="android:windowLightNavigationBar">false</item>-->
+
+        <!-- DISABLE FORCE DARK -->
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+
+
+    <style name="Theme.MyApp.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Fullscreen -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <!-- If you want white icons (dark background) -->
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Duration of animation -->
+        <item name="windowSplashScreenAnimationDuration">500</item>
+    </style>
+
+    <style name="numberPicker">
+        <item name="android:fontFamily">@font/common_font</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="CustomTabText">
+        <item name="android:fontFamily">@font/common_font</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <style name="BottomDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowBackground">@drawable/background_left_and_right_corner</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@style/DialogSlideAnimation</item>
+    </style>
+
+    <style name="DialogSlideAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+
+
+
+    <!--BottomSheet START-->
+    <!--<style name="CustomBottomSheetDialogTheme" parent="Theme.MaterialComponents.BottomSheetDialog">&lt;!&ndash;BottomSheet&ndash;&gt;
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="CustomBottomSheetStyle" parent="Widget.MaterialComponents.BottomSheet.Modal">&lt;!&ndash;BottomSheet&ndash;&gt;
+        <item name="shapeAppearanceOverlay">@style/BottomSheetShape</item>
+    </style>
+    <style name="BottomSheetShape">&lt;!&ndash;BottomSheet&ndash;&gt;
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+        <item name="cornerSizeTopRight">25dp</item>
+    </style>-->
+    <!--BottomSheet END-->
+
+    <!--BottomSheet START-->
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.MaterialComponents.BottomSheetDialog"><!--BottomSheet-->
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="CustomBottomSheetStyle" parent="Widget.MaterialComponents.BottomSheet.Modal"><!--BottomSheet-->
+        <item name="shapeAppearanceOverlay">@style/BottomSheetShape</item>
+    </style>
+    <style name="BottomSheetShape"><!--BottomSheet-->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+        <item name="cornerSizeTopRight">25dp</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogThemeDimBackground" parent="Theme.MaterialComponents.BottomSheetDialog"><!--BottomSheet-->
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyleDimBackground</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="CustomBottomSheetStyleDimBackground" parent="Widget.MaterialComponents.BottomSheet.Modal"><!--BottomSheet-->
+        <item name="shapeAppearanceOverlay">@style/BottomSheetShapeDimBackground</item>
+    </style>
+    <style name="BottomSheetShapeDimBackground"><!--BottomSheet-->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+        <item name="cornerSizeTopRight">25dp</item>
+    </style>
+    <!--BottomSheet END-->
+
+
+
+    <style name="Theme_Dialog_4" parent="@style/Base.ThemeOverlay.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--<item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>-->
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation2</item>
+        <!--<item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>-->
+    </style>
+
+    <style name="DialogAnimation2">
+        <item name="android:windowEnterAnimation">@anim/bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/top_to_bottom</item>
+    </style>
+
+
+    <style name="dialogAnim" parent="@style/Base.ThemeOverlay.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimationloader</item>
+    </style>
+
+    <style name="DialogAnimationloader">
+        <!--<item name="android:windowEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>-->
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+</resources>
