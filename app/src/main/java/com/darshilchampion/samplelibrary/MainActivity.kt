@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.WindowCompat
 import com.darshilchampion.samplelibrary.databinding.ActivityMainBinding
 import java.io.File
+import com.darshilchampion.gitsample.ChampionSDK
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,7 +42,14 @@ class MainActivity : AppCompatActivity() {
 
 
 
+        // Initialize SDK
+        ChampionSDK.initialize(this)
 
+        // Show custom message
+        ChampionSDK.showMessage(
+            this,
+            "Hello from ChampionSDK!"
+        )
 
 
 
